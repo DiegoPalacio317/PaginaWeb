@@ -97,7 +97,7 @@ section {
 
 .coffee {
     order: 1;
-    flex-basis: 35%;
+    flex-basis: 40%;
 }
 
 .contenedor-textos {
@@ -234,9 +234,9 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
-    padding: 20px;
-    background-color: #2c2c2c;
+    gap: 18px;
+    padding: 100px;
+    background-color:#eed59f;
 }
 
 
@@ -266,12 +266,12 @@ section {
 
 /*contacto*/
 .contacto {
-    background-color: var(--color_primario);
-    color: var(--color_secundario);
+    background-color:#eed59f;
+    color: black;
     padding: 50px 20px;
     border-radius: 10px;
     text-align: center;
-    max-width: var(--maximo__ancho);
+    max-width: #eed59f;
     margin: 0 auto;
 }
 
@@ -284,11 +284,13 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    
 }
 
 .contacto label {
     font-size: 1rem;
     font-weight: bold;
+    
 }
 
 .contacto input,
@@ -299,11 +301,12 @@ section {
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    
 }
 
 .contacto button {
     background-color: var(--color_blanco);
-    color: var(--color_negro);
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -312,6 +315,6 @@ section {
 }
 
 .contacto button:hover {
-    background-color: var(--color_secundario);
-    color: var(--color_primario);
+    background-color: black;
+    color: black;
 }
